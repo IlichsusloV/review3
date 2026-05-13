@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="xJWrEFTCmOpm2UQB0E4b">
+    <mxGraphModel dx="1740" dy="1147" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;" value="DFD-модель процесса обработки заказов при продаже ловушек для насекомых на маркетплейсе" vertex="1">
+          <mxGeometry height="30" width="1100" x="250" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="buyer" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" value="Покупатель" vertex="1">
+          <mxGeometry height="70" width="180" x="80" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="market" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" value="Маркетплейс" vertex="1">
+          <mxGeometry height="70" width="190" x="1290" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="supplier" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" value="Поставщик" vertex="1">
+          <mxGeometry height="70" width="180" x="80" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="seller" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" value="ИП-продавец" vertex="1">
+          <mxGeometry height="70" width="190" x="1290" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="warehouse" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" value="Склад" vertex="1">
+          <mxGeometry height="70" width="190" x="1290" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="proc1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;strokeWidth=2;" value="1&#xa;Обработка заказов" vertex="1">
+          <mxGeometry height="120" width="380" x="560" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="store2" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;strokeWidth=2;left=1;right=0;" value="2 | Учёт остатков" vertex="1">
+          <mxGeometry height="70" width="250" x="430" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="store3" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;strokeWidth=2;left=1;right=0;" value="3 | Данные заказов" vertex="1">
+          <mxGeometry height="70" width="250" x="790" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="store4" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;strokeWidth=2;left=1;right=0;" value="4 | Данные поставок" vertex="1">
+          <mxGeometry height="70" width="250" x="1130" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="sGfHb2vb6Cg0QmjCZwVF-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="70" width="250" x="100" y="800" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
